@@ -6,7 +6,7 @@ public class Friend {
     private String hp;
     private String school;
 
-    
+    name[];
     //필요한 메소드 작성
     
     

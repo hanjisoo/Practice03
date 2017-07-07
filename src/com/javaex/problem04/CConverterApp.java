@@ -9,11 +9,11 @@ public class CConverterApp {
         double won;
         
         CConverter.setRate(1118.70);
-        
-        
+
+        System.out.println(CConverter.toDoller(1000000));
         //백만원을 달러로 출력
 
-        
+       System.out.println(CConverter.toKWR(100));
         //100달려를 원으로 출력
         
         

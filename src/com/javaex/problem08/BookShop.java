@@ -36,5 +36,8 @@ public class BookShop {
     //(2)전달받은 배열을 모두 출력하는 메소드
     private static void displayBookInfo(Book[] books) {
         //코드작성
+    	for(int i=0; i<10; i++) {
+    		System.out.println(bookNo+" 책 제목:"+title+", 작가:"+author+", 대여 유무"+stateCode);
+    	}
     }
 }
